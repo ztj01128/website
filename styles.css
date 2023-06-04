@@ -18,6 +18,10 @@ footer {
     margin-top: auto;
 }
 
+.current {
+    border-bottom: 0.25rem solid black;
+}
+
 
 /* Navbar */
 
@@ -53,9 +57,13 @@ footer address {
 }
 
 footer address a {
-    text-decoration: none;
     color: black;
     margin: 0 1rem;
 }
 
 /* Footer */
+
+.intro {
+    display: flex;
+    align-items: center;
+}
