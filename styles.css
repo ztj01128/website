@@ -10,8 +10,21 @@ body {
     flex-direction: column;
 }
 
+h1 {
+    font-size: 5rem;
+    margin: 1rem;
+}
+
 p {
-    width: 100ch;
+    max-width: 100ch;
+}
+
+img {
+    margin: 1rem
+}
+
+main {
+    margin: auto;
 }
 
 footer {
@@ -25,17 +38,17 @@ footer {
 
 /* Navbar */
 
-ul {
+nav ul {
     list-style: none;
     display: flex;
     justify-content: flex-end;
 }
 
-ul li {
+nav ul li {
     margin: 0 1rem;
 }
 
-ul li a {
+nav ul li a {
     text-decoration: none;
     color: black;
     font-weight: 500;
@@ -67,3 +80,26 @@ footer address a {
     display: flex;
     align-items: center;
 }
+
+/* section */
+
+section {
+    display: flex;
+}
+
+/* section */
+
+/* dl */
+
+dt {
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+dd {
+    margin-top: 0.5rem;
+    max-width: 100ch;
+}
+
+/* dl */
