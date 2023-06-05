@@ -35,6 +35,12 @@ footer {
     border-bottom: 0.25rem solid black;
 }
 
+.senior-paper {
+    border: none;
+    width: 800px;
+    height: 1000px;
+}
+
 
 /* Navbar */
 
